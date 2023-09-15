@@ -1,4 +1,4 @@
-name: Bonjour
+name: FLOW_ON_PULL_REQUEST
 on:
   - pull_request
 jobs:
