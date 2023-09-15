@@ -1,4 +1,4 @@
-name: protect_branch
+name: Bonjour
 on:
   - pull_request
 jobs:
