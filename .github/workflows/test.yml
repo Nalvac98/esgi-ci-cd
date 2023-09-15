@@ -1,8 +1,8 @@
-name: FLOW_ON_PULL_REQUEST
+name: protect_branch
 on:
   - pull_request
 jobs:
-  protect:
+  protect_branch:
     runs-on: ubuntu-22.04
     env: 
       IMAGE_NAME: "mynode:19"
