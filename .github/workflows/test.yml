@@ -1,8 +1,8 @@
 name: Bonjour
 on:
-  - push
+  - pull_request
 jobs:
-  dire_bonjour:
+  protect:
     runs-on: ubuntu-22.04
     env: 
       IMAGE_NAME: "mynode:19"
