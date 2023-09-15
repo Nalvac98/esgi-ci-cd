@@ -1,6 +1,6 @@
-name: Bonjour
+name: protect_branch
 on:
-  - push
+  - pull_request
 jobs:
   dire_bonjour:
     runs-on: ubuntu-22.04
